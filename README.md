@@ -1,5 +1,5 @@
 # causal_ml
-Codes for Causal ML paper 
+Compares three causal machine learning methods: propensity score matching with machine learning, double machine learning, and causal forest. 
 
 ## ML_causal_code_simulation.R 
 
