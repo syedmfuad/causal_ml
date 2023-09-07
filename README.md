@@ -6,7 +6,7 @@ Codes for Causal ML paper
 Simulates different data structures based on DGP. The baseline DGP is structured as following:
 
 $`y_i=\theta d_i+x_i' \beta + u_i`$
-
+$`d_i=x_i' \beta + v_i`$
 
 
 
