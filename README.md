@@ -17,6 +17,21 @@ The baseline DGP is defined as $`n=150`$, $`k=10`$, $`\theta=1`$ (homogenous tre
 * Impose treatment heterogeneity $`(\theta=1; \theta \tilde Normal(1,1))`$
 * Change structure of data $`(y_i = \theta d_i + x_i' \beta + u_i)`$ and $`(y_i = \theta d_i + sin(x_i' \beta) + u_i)`$
 
+Runs the following causal estimation methods: 
+* PSM with Probit regression (PSM-Probit)
+* PSM with Neural Net (PSM-NN)
+* PSM with Random Forest (PSM-RF)
+* PSM with eXtreme Gradient Boosting (PSM-XGB)
+* Double machine learning with (E[̂D|Z]) ̂ estimated using Logistic Lasso and (E[Y|Z]) ̂ estimated using Lasso regression (DML-Lasso/Lasso)
+* Double machine learning with (E[̂D|Z]) ̂ estimated using logistic regression and (E[Y|Z]) ̂ estimated using random forest (DML-Logit/RF)
+* Double machine learning with (E[̂D|Z]) ̂ estimated using classification neural network and (E[Y|Z]) ̂ estimated using Random Forest (DML-NN/RF)
+* Double machine learning with (E[̂D|Z]) ̂ estimated using Logistic Lasso and (E[Y|Z]) ̂ estimated using Random Forest (DML-Lasso/RF)
+* Double machine learning with both (E[̂D|Z]) ̂ and (E[Y|Z]) ̂ estimated using random forest (DML-RF/RF)
+* Double machine learning with (E[̂D|Z]) ̂ estimated using classification neural network and (E[Y|Z]) ̂ estimated using Lasso regression (DML-NN/Lasso)
+* Double machine learning with both (E[̂D|Z]) ̂ and (E[Y|Z]) ̂ estimated using eXtreme Gradient Boosting (DML-XGB/XGB)
+* Double machine learning with (E[̂D|Z]) ̂ estimated using Logistic regression and (E[Y|Z]) ̂ estimated using OLS (DML-Logit/OLS)
+* Causal forest (CF) 
+
 ## ML_causal_code_Dhurandhar.R 
 
 Causal ML replication of Dhurandhar et al. (2014) 
