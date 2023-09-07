@@ -17,4 +17,27 @@ The baseline DGP is defined as $`n=150`$, $`k=10`$, $`\theta=1`$ (homogenous tre
 * Impose treatment heterogeneity $`(\theta=1; \theta \tilde Normal(1,1))`$
 * Change structure of data $`(y_i = \theta d_i + x_i' \beta + u_i)`$ and $`(y_i = \theta d_i + sin(x_i' \beta) + u_i)`$
 
+## ML_causal_code_Dhurandhar.R 
+
+Causal ML replication of Dhurandhar et al. (2014) 
+
+Dhurandhar, E. J., Dawson, J., Alcorn, A., Larsen, L. H., Thomas, E. A., Cardel, M., ... & Allison, D. B. (2014). The effectiveness of breakfast recommendations on weight loss: a randomized controlled trial. The American Journal of Clinical Nutrition, 100(2), 507-513. 
+
+## ML_causal_code_Bryan.R 
+
+Causal ML replication of Bryan et al. (2014) 
+
+Bryan, G., Chowdhury, S., & Mobarak, A. M. (2014). Underinvestment in a profitable technology: The case of seasonal migration in Bangladesh. Econometrica, 82(5), 1671-1748. 
+
+## 36174-0001-Data.rda 
+
+Dhurandhar et al. (2014) paper data. 
+
+## Round2.dta 
+
+Bryan et al. (2014) paper data. 
+
+
+
+
 
