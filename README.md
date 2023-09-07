@@ -15,6 +15,6 @@ The baseline DGP is defined as $`n=150`$, $`k=10`$, $`\theta=1`$ (homogenous tre
 * Increase sample size $`(n=150, 500, 5000, 15000)`$
 * Increase number of covariates $`(k=10, 100)`$
 * Impose treatment heterogeneity $`(\theta=1; \theta \tilde Normal(1,1))`$
-* Change structure of data $`()`$
+* Change structure of data $`(y_i = \theta d_i + x_i' \beta + u_i)`$ and $`(y_i = \theta d_i + sin(x_i' \beta) + u_i)`$
 
 
