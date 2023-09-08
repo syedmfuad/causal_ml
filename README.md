@@ -1,5 +1,5 @@
 # causal_ml
-Compares three causal machine learning methods: propensity score matching with machine learning, double machine learning, and causal forest. 
+Compares three causal machine learning methods: propensity score matching with machine learning, double machine learning, and causal forest across various treatment effect, model complexities, data dimensions and sample sizes. 
 
 ## ML_causal_code_simulation.R 
 
